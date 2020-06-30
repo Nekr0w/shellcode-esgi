@@ -2,7 +2,6 @@
 '''
 Program : Reverse shell TCP polymorphic shellcode generator
 Authors : Ander ARROSTEGUY, Matthieu BAILLY, Mohamed BOUHASTINE
-Last modification : 20/05/2020 
 '''
 
 import random
