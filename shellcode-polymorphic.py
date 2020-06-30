@@ -93,7 +93,7 @@ def socket():
     opcodes_socket = [
         ["b0 29", "b0 28 04 01"],               # mov al, 41
         ["40 b7 02", "40 b7 01 40 80 c7 01"],   # mov dil, 2
-        ["40 b6 01", "40 b6 00 40 80 c6 01"]    # mov sil, 1
+        ["40 b6 01", "40 b6 02 40 80 ee 01"]    # mov sil, 1
     ]
 
     for i in range(0, len(opcodes_socket)):
